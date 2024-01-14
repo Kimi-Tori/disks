@@ -1,0 +1,22 @@
+.layout-main {
+  background-color: $dark;
+}
+
+.v-container {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  max-width: 600px !important;
+
+  @include up($sm) {
+    max-width: 600px !important;
+  }
+  @include up($md) {
+    max-width: 600px !important;
+  }
+  @include up($lg) {
+    max-width: 1402px !important;
+  }
+  @include up($xl) {
+    max-width: 1722px !important;
+  }
+}

@@ -13,9 +13,11 @@
             основанные на самых передовых стандартах современной автомобильной
             промышленности
           </p>
-          <v-btn class="home-intro__container-text__button mt-8"
-            >Узнать больше о компании</v-btn
-          >
+          <router-link :to="{ name: 'home-footer' }" class="mt-8 d-block">
+            <v-btn class="home-intro__container-text__button"
+              >Узнать больше о компании</v-btn
+            >
+          </router-link>
         </div>
       </div>
       <img src="@/assets/home/home-intro.png" class="home-intro__img" />
@@ -47,6 +49,7 @@ export default {
         border: 1px solid $red;
         color: $red;
         transition: 0.2s linear;
+        text-decoration: none;
 
         &:hover {
           background-color: $red !important;

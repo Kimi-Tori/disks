@@ -167,8 +167,14 @@ export default {
 
     &-background {
       position: absolute;
+      background-size: contain;
+      bottom: 0;
       top: 0;
       left: 0;
+
+      & svg {
+        height: 100%;
+      }
     }
   }
 }

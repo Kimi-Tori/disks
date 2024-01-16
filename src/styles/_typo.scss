@@ -22,6 +22,12 @@
     font-weight: 400;
 }
 
+.h4-dop {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 400;
+}
+
 .h1-dop {
     font-size: 61px;
     line-height: normal;
@@ -37,6 +43,12 @@
 
     &-parag-dop {
         font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &-big-span {
+        font-size: 32px;
         font-weight: 400;
         line-height: normal;
     }
